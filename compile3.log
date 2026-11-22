@@ -1,0 +1,361 @@
+
+> Configure project :
+Fabric Loom: 1.19.4
+
+> Task :compileJava
+Note: /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/item/AbstractRoadSignBlockItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources
+> Task :classes
+
+> Task :compileClientJava FAILED
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:21: error: package org.lwjgl.glfw does not exist
+import org.lwjgl.glfw.GLFW;
+                     ^
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:29: error: package org.lwjgl.glfw does not exist
+import org.lwjgl.glfw.GLFW;
+                     ^
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:12: error: package org.lwjgl.glfw does not exist
+import org.lwjgl.glfw.GLFW;
+                     ^
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:223: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+        boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                                                                ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+        boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                            ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+        boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                                                                                                ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+        if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+                                        ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+        if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+            ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+        if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+                                                                 ^
+  symbol:   variable GLFW
+  location: class ModelSelectionOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:580: error: cannot find symbol
+        if (mc != null && mc.getOverlay() == this) {
+                            ^
+  symbol:   method getOverlay()
+  location: variable mc of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:581: error: cannot find symbol
+            mc.setOverlay(null);
+              ^
+  symbol:   method setOverlay(<null>)
+  location: variable mc of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:65: error: cannot find symbol
+            if (client != null && client.getOverlay() instanceof ModelSelectionOverlay overlay) {
+                                        ^
+  symbol:   method getOverlay()
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:119: error: cannot find symbol
+                    if (event.key() == GLFW.GLFW_KEY_ESCAPE) {
+                                       ^
+  symbol:   variable GLFW
+  location: class OcelotSignModClient
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:175: error: cannot find symbol
+                mc.setOverlay(new ModelSelectionOverlay(TargetType.BLOCK, hitResult.getBlockPos()));
+                  ^
+  symbol:   method setOverlay(ModelSelectionOverlay)
+  location: variable mc of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/RoadSignBlockEntityRenderer.java:78: error: no suitable method found for mulPose(Quaternionf)
+        matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                ^
+    method PoseStack.mulPose(Matrix4fc) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+    method PoseStack.mulPose(Transformation) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Transformation)
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/WallRoadSignBlockEntityRenderer.java:79: error: no suitable method found for mulPose(Quaternionf)
+        matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                ^
+    method PoseStack.mulPose(Matrix4fc) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+    method PoseStack.mulPose(Transformation) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Transformation)
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/ColorPickerState.java:409: error: package org.lwjgl.glfw does not exist
+                org.lwjgl.glfw.GLFW.glfwSetClipboardString(handle, hexWithHash);
+                              ^
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/ColorPickerState.java:418: error: cannot find symbol
+                client.getToastManager(),
+                      ^
+  symbol:   method getToastManager()
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:442: error: cannot find symbol
+            long arrowCursor = GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR);
+                                                             ^
+  symbol:   variable GLFW
+  location: class PatternAndFontOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:442: error: cannot find symbol
+            long arrowCursor = GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR);
+                               ^
+  symbol:   variable GLFW
+  location: class PatternAndFontOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:444: error: cannot find symbol
+                GLFW.glfwSetCursor(handle, arrowCursor);
+                ^
+  symbol:   variable GLFW
+  location: class PatternAndFontOverlay
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1000: error: cannot find symbol
+        if (client.screen instanceof ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1009: error: cannot find symbol
+        if (client.screen instanceof ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1090: error: cannot find symbol
+            Util.getPlatform().openUri(url);
+                              ^
+  symbol:   method openUri(String)
+  location: class OS
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/HomepageRenderer.java:385: error: cannot find symbol
+            Util.getPlatform().openUri(url);
+                              ^
+  symbol:   method openUri(String)
+  location: class OS
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MishangIntegration.java:221: error: cannot find symbol
+        if (client.screen instanceof ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MishangIntegration.java:232: error: cannot find symbol
+        if (client.screen instanceof ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:256: error: cannot find symbol
+            Util.getPlatform().openUri(hoveredUrl);
+                              ^
+  symbol:   method openUri(String)
+  location: class OS
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:504: error: cannot find symbol
+        if (client.screen instanceof bklmc.ocelotsign.mixin_interfaces.ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:515: error: cannot find symbol
+        if (client.screen instanceof bklmc.ocelotsign.mixin_interfaces.ISignEditorExtension extension) {
+                  ^
+  symbol:   variable screen
+  location: variable client of type Minecraft
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/render/CustomModelBER.java:120: error: no suitable method found for mulPose(Quaternionf)
+                matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                        ^
+    method PoseStack.mulPose(Matrix4fc) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+    method PoseStack.mulPose(Transformation) is not applicable
+      (argument mismatch; Quaternionf cannot be converted to Transformation)
+/home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/mixin/client/MouseScrollMixin.java:23: error: cannot find symbol
+        if (net.minecraft.client.Minecraft.getInstance().getOverlay() instanceof ModelSelectionOverlay overlay) {
+                                                        ^
+  symbol:   method getOverlay()
+  location: class Minecraft
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+33 errors
+
+[Incubating] Problems report is available at: file:///home/rong/RongMC-ports/OcelotSign/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileClientJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:21: error: package org.lwjgl.glfw does not exist
+  import org.lwjgl.glfw.GLFW;
+                       ^
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:29: error: package org.lwjgl.glfw does not exist
+  import org.lwjgl.glfw.GLFW;
+                       ^
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:12: error: package org.lwjgl.glfw does not exist
+  import org.lwjgl.glfw.GLFW;
+                       ^
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/ColorPickerState.java:409: error: package org.lwjgl.glfw does not exist
+                  org.lwjgl.glfw.GLFW.glfwSetClipboardString(handle, hexWithHash);
+                                ^
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:223: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+          boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                                                                  ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+          boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                              ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:410: error: cannot find symbol
+          boolean mouseDown = GLFW.glfwGetMouseButton(glfwHandle, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
+                                                                                                  ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+          if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+                                          ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+          if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+              ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:432: error: cannot find symbol
+          if (GLFW.glfwGetKey(glfwHandle, GLFW.GLFW_KEY_ESCAPE) == GLFW.GLFW_PRESS) {
+                                                                   ^
+    symbol:   variable GLFW
+    location: class ModelSelectionOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:119: error: cannot find symbol
+                      if (event.key() == GLFW.GLFW_KEY_ESCAPE) {
+                                         ^
+    symbol:   variable GLFW
+    location: class OcelotSignModClient
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:442: error: cannot find symbol
+              long arrowCursor = GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR);
+                                                               ^
+    symbol:   variable GLFW
+    location: class PatternAndFontOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:442: error: cannot find symbol
+              long arrowCursor = GLFW.glfwCreateStandardCursor(GLFW.GLFW_ARROW_CURSOR);
+                                 ^
+    symbol:   variable GLFW
+    location: class PatternAndFontOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:444: error: cannot find symbol
+                  GLFW.glfwSetCursor(handle, arrowCursor);
+                  ^
+    symbol:   variable GLFW
+    location: class PatternAndFontOverlay
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1000: error: cannot find symbol
+          if (client.screen instanceof ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1009: error: cannot find symbol
+          if (client.screen instanceof ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MishangIntegration.java:221: error: cannot find symbol
+          if (client.screen instanceof ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MishangIntegration.java:232: error: cannot find symbol
+          if (client.screen instanceof ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:504: error: cannot find symbol
+          if (client.screen instanceof bklmc.ocelotsign.mixin_interfaces.ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:515: error: cannot find symbol
+          if (client.screen instanceof bklmc.ocelotsign.mixin_interfaces.ISignEditorExtension extension) {
+                    ^
+    symbol:   variable screen
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:580: error: cannot find symbol
+          if (mc != null && mc.getOverlay() == this) {
+                              ^
+    symbol:   method getOverlay()
+    location: variable mc of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/gui/ModelSelectionOverlay.java:581: error: cannot find symbol
+              mc.setOverlay(null);
+                ^
+    symbol:   method setOverlay(<null>)
+    location: variable mc of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:65: error: cannot find symbol
+              if (client != null && client.getOverlay() instanceof ModelSelectionOverlay overlay) {
+                                          ^
+    symbol:   method getOverlay()
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/OcelotSignModClient.java:175: error: cannot find symbol
+                  mc.setOverlay(new ModelSelectionOverlay(TargetType.BLOCK, hitResult.getBlockPos()));
+                    ^
+    symbol:   method setOverlay(ModelSelectionOverlay)
+    location: variable mc of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/ColorPickerState.java:418: error: cannot find symbol
+                  client.getToastManager(),
+                        ^
+    symbol:   method getToastManager()
+    location: variable client of type Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/PatternAndFontOverlay.java:1090: error: cannot find symbol
+              Util.getPlatform().openUri(url);
+                                ^
+    symbol:   method openUri(String)
+    location: class OS
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/HomepageRenderer.java:385: error: cannot find symbol
+              Util.getPlatform().openUri(url);
+                                ^
+    symbol:   method openUri(String)
+    location: class OS
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/MouseEventHandler.java:256: error: cannot find symbol
+              Util.getPlatform().openUri(hoveredUrl);
+                                ^
+    symbol:   method openUri(String)
+    location: class OS
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/mixin/client/MouseScrollMixin.java:23: error: cannot find symbol
+          if (net.minecraft.client.Minecraft.getInstance().getOverlay() instanceof ModelSelectionOverlay overlay) {
+                                                          ^
+    symbol:   method getOverlay()
+    location: class Minecraft
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/RoadSignBlockEntityRenderer.java:78: error: no suitable method found for mulPose(Quaternionf)
+          matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                  ^
+      method PoseStack.mulPose(Matrix4fc) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+      method PoseStack.mulPose(Transformation) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Transformation)
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/WallRoadSignBlockEntityRenderer.java:79: error: no suitable method found for mulPose(Quaternionf)
+          matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                  ^
+      method PoseStack.mulPose(Matrix4fc) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+      method PoseStack.mulPose(Transformation) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Transformation)
+  /home/rong/RongMC-ports/OcelotSign/src/client/java/bklmc/ocelotsign/client/render/CustomModelBER.java:120: error: no suitable method found for mulPose(Quaternionf)
+                  matrices.mulPose(Axis.YP.rotationDegrees(-state.facing.toYRot()));
+                          ^
+      method PoseStack.mulPose(Matrix4fc) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Matrix4fc)
+      method PoseStack.mulPose(Transformation) is not applicable
+        (argument mismatch; Quaternionf cannot be converted to Transformation)
+  Note: Some input files use or override a deprecated API.
+  Note: Recompile with -Xlint:deprecation for details.
+  33 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 15s
+3 actionable tasks: 3 executed

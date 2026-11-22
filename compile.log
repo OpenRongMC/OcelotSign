@@ -1,0 +1,1031 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+> Configure project :
+Fabric Loom: 1.19.4
+
+> Task :compileJava
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/custom/CustomModelBlock.java:38: error: cannot find symbol
+    private static final MapCodec<CustomModelBlock> CODEC = (MapCodec<CustomModelBlock>) Block.simpleCodec(CustomModelBlock::new);
+                                                                                              ^
+  symbol:   method simpleCodec(CustomMode[...]::new)
+  location: class Block
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/custom/CustomModelBlock.java:45: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:19: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/blue/left_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_top")));
+                                                                                                                           ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:19: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/blue/left_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_top")));
+                                                                                                                                                              ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:20: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_TOP = registerWithItem("roadsign/blue/top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/top")));
+                                                                                                                 ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:20: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_TOP = registerWithItem("roadsign/blue/top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/top")));
+                                                                                                                                                    ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:21: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/blue/right_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_top")));
+                                                                                                                             ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:21: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/blue/right_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_top")));
+                                                                                                                                                                ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:22: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT = registerWithItem("roadsign/blue/left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left")));
+                                                                                                                   ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:22: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT = registerWithItem("roadsign/blue/left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left")));
+                                                                                                                                                      ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:23: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/blue/middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/middle")));
+                                                                                                                       ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:23: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/blue/middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/middle")));
+                                                                                                                                                          ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:24: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT = registerWithItem("roadsign/blue/right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right")));
+                                                                                                                     ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:24: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT = registerWithItem("roadsign/blue/right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right")));
+                                                                                                                                                        ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:25: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/blue/left_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_bottom")));
+                                                                                                                                 ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:25: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/blue/left_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_bottom")));
+                                                                                                                                                                    ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:26: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/blue/bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/bottom")));
+                                                                                                                       ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:26: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/blue/bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/bottom")));
+                                                                                                                                                          ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:27: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/blue/right_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_bottom")));
+                                                                                                                                   ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:27: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/blue/right_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_bottom")));
+                                                                                                                                                                      ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:28: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/blue/horizontal_left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_left")));
+                                                                                                                                         ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:28: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/blue/horizontal_left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_left")));
+                                                                                                                                                                            ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:29: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/blue/horizontal_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_middle")));
+                                                                                                                                             ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:29: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/blue/horizontal_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_middle")));
+                                                                                                                                                                                ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:30: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/blue/horizontal_right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_right")));
+                                                                                                                                           ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:30: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/blue/horizontal_right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_right")));
+                                                                                                                                                                              ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:31: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/blue/vertical_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_top")));
+                                                                                                                                   ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:31: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/blue/vertical_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_top")));
+                                                                                                                                                                      ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:32: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/blue/vertical_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_middle")));
+                                                                                                                                         ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:32: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/blue/vertical_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_middle")));
+                                                                                                                                                                            ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:33: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/blue/vertical_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_bottom")));
+                                                                                                                                         ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:33: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/blue/vertical_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_bottom")));
+                                                                                                                                                                            ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:34: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/blue/small_a", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_a")));
+                                                                                                                         ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:34: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/blue/small_a", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_a")));
+                                                                                                                                                            ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:35: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/blue/small_b", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_b")));
+                                                                                                                         ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:35: error: cannot find symbol
+    public static final Block BLUE_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/blue/small_b", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_b")));
+                                                                                                                                                            ^
+  symbol:   variable BLUE_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:38: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/green/left_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_top")));
+                                                                                                                             ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:38: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/green/left_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_top")));
+                                                                                                                                                                 ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:39: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_TOP = registerWithItem("roadsign/green/top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/top")));
+                                                                                                                   ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:39: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_TOP = registerWithItem("roadsign/green/top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/top")));
+                                                                                                                                                       ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:40: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/green/right_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_top")));
+                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:40: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/green/right_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_top")));
+                                                                                                                                                                   ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:41: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT = registerWithItem("roadsign/green/left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left")));
+                                                                                                                     ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:41: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT = registerWithItem("roadsign/green/left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left")));
+                                                                                                                                                         ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:42: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/green/middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/middle")));
+                                                                                                                         ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:42: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/green/middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/middle")));
+                                                                                                                                                             ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:43: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT = registerWithItem("roadsign/green/right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right")));
+                                                                                                                       ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:43: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT = registerWithItem("roadsign/green/right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right")));
+                                                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:44: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/green/left_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_bottom")));
+                                                                                                                                   ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:44: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/green/left_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_bottom")));
+                                                                                                                                                                       ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:45: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/green/bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/bottom")));
+                                                                                                                         ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:45: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/green/bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/bottom")));
+                                                                                                                                                             ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:46: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/green/right_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_bottom")));
+                                                                                                                                     ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:46: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/green/right_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_bottom")));
+                                                                                                                                                                         ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:47: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/green/horizontal_left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_left")));
+                                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:47: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/green/horizontal_left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_left")));
+                                                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:48: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/green/horizontal_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_middle")));
+                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:48: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/green/horizontal_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_middle")));
+                                                                                                                                                                                   ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:49: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/green/horizontal_right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_right")));
+                                                                                                                                             ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:49: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/green/horizontal_right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_right")));
+                                                                                                                                                                                 ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:50: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/green/vertical_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_top")));
+                                                                                                                                     ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:50: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/green/vertical_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_top")));
+                                                                                                                                                                         ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:51: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/green/vertical_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_middle")));
+                                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:51: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/green/vertical_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_middle")));
+                                                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:52: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/green/vertical_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_bottom")));
+                                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:52: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/green/vertical_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_bottom")));
+                                                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:53: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/green/small_a", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_a")));
+                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:53: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/green/small_a", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_a")));
+                                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:54: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/green/small_b", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_b")));
+                                                                                                                           ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:54: error: cannot find symbol
+    public static final Block GREEN_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/green/small_b", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_b")));
+                                                                                                                                                               ^
+  symbol:   variable GREEN_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:56: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/yellow/left_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_top")));
+                                                                                                                               ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:56: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/yellow/left_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_top")));
+                                                                                                                                                                    ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:57: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_TOP = registerWithItem("roadsign/yellow/top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/top")));
+                                                                                                                     ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:57: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_TOP = registerWithItem("roadsign/yellow/top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/top")));
+                                                                                                                                                          ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:58: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/yellow/right_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_top")));
+                                                                                                                                 ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:58: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/yellow/right_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_top")));
+                                                                                                                                                                      ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:59: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT = registerWithItem("roadsign/yellow/left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left")));
+                                                                                                                       ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:59: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT = registerWithItem("roadsign/yellow/left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left")));
+                                                                                                                                                            ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:60: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/yellow/middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/middle")));
+                                                                                                                           ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:60: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/yellow/middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/middle")));
+                                                                                                                                                                ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:61: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT = registerWithItem("roadsign/yellow/right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right")));
+                                                                                                                         ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:61: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT = registerWithItem("roadsign/yellow/right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right")));
+                                                                                                                                                              ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:62: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/yellow/left_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_bottom")));
+                                                                                                                                     ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:62: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/yellow/left_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_bottom")));
+                                                                                                                                                                          ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:63: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/yellow/bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/bottom")));
+                                                                                                                           ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:63: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/yellow/bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/bottom")));
+                                                                                                                                                                ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:64: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/yellow/right_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_bottom")));
+                                                                                                                                       ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:64: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/yellow/right_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_bottom")));
+                                                                                                                                                                            ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:65: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/yellow/horizontal_left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_left")));
+                                                                                                                                             ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:65: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/yellow/horizontal_left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_left")));
+                                                                                                                                                                                  ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:66: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/yellow/horizontal_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_middle")));
+                                                                                                                                                 ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:66: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/yellow/horizontal_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_middle")));
+                                                                                                                                                                                      ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:67: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/yellow/horizontal_right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_right")));
+                                                                                                                                               ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:67: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/yellow/horizontal_right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_right")));
+                                                                                                                                                                                    ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:68: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/yellow/vertical_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_top")));
+                                                                                                                                       ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:68: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/yellow/vertical_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_top")));
+                                                                                                                                                                            ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:69: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/yellow/vertical_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_middle")));
+                                                                                                                                             ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:69: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/yellow/vertical_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_middle")));
+                                                                                                                                                                                  ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:70: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/yellow/vertical_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_bottom")));
+                                                                                                                                             ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+/home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:70: error: cannot find symbol
+    public static final Block YELLOW_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/yellow/vertical_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_bottom")));
+                                                                                                                                                                                  ^
+  symbol:   variable YELLOW_CONCRETE
+  location: class Blocks
+Note: /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/item/AbstractRoadSignBlockItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+100 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///home/rong/RongMC-ports/OcelotSign/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/custom/CustomModelBlock.java:38: error: cannot find symbol
+      private static final MapCodec<CustomModelBlock> CODEC = (MapCodec<CustomModelBlock>) Block.simpleCodec(CustomModelBlock::new);
+                                                                                                ^
+    symbol:   method simpleCodec(CustomMode[...]::new)
+    location: class Block
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/custom/CustomModelBlock.java:45: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:19: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/blue/left_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_top")));
+                                                                                                                             ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:19: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/blue/left_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_top")));
+                                                                                                                                                                ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:20: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_TOP = registerWithItem("roadsign/blue/top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/top")));
+                                                                                                                   ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:20: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_TOP = registerWithItem("roadsign/blue/top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/top")));
+                                                                                                                                                      ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:21: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/blue/right_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_top")));
+                                                                                                                               ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:21: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/blue/right_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_top")));
+                                                                                                                                                                  ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:22: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT = registerWithItem("roadsign/blue/left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left")));
+                                                                                                                     ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:22: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT = registerWithItem("roadsign/blue/left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left")));
+                                                                                                                                                        ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:23: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/blue/middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/middle")));
+                                                                                                                         ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:23: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/blue/middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/middle")));
+                                                                                                                                                            ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:24: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT = registerWithItem("roadsign/blue/right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right")));
+                                                                                                                       ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:24: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT = registerWithItem("roadsign/blue/right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right")));
+                                                                                                                                                          ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:25: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/blue/left_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_bottom")));
+                                                                                                                                   ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:25: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/blue/left_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/left_bottom")));
+                                                                                                                                                                      ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:26: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/blue/bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/bottom")));
+                                                                                                                         ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:26: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/blue/bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/bottom")));
+                                                                                                                                                            ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:27: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/blue/right_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_bottom")));
+                                                                                                                                     ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:27: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/blue/right_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/right_bottom")));
+                                                                                                                                                                        ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:28: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/blue/horizontal_left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_left")));
+                                                                                                                                           ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:28: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/blue/horizontal_left", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_left")));
+                                                                                                                                                                              ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:29: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/blue/horizontal_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_middle")));
+                                                                                                                                               ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:29: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/blue/horizontal_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_middle")));
+                                                                                                                                                                                  ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:30: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/blue/horizontal_right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_right")));
+                                                                                                                                             ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:30: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/blue/horizontal_right", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/horizontal_right")));
+                                                                                                                                                                                ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:31: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/blue/vertical_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_top")));
+                                                                                                                                     ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:31: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/blue/vertical_top", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_top")));
+                                                                                                                                                                        ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:32: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/blue/vertical_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_middle")));
+                                                                                                                                           ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:32: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/blue/vertical_middle", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_middle")));
+                                                                                                                                                                              ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:33: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/blue/vertical_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_bottom")));
+                                                                                                                                           ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:33: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/blue/vertical_bottom", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/vertical_bottom")));
+                                                                                                                                                                              ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:34: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/blue/small_a", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_a")));
+                                                                                                                           ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:34: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/blue/small_a", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_a")));
+                                                                                                                                                              ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:35: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/blue/small_b", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_b")));
+                                                                                                                           ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:35: error: cannot find symbol
+      public static final Block BLUE_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/blue/small_b", new RoadSignBlock(Blocks.BLUE_CONCRETE, signSettings(Blocks.BLUE_CONCRETE, "roadsign/blue/small_b")));
+                                                                                                                                                              ^
+    symbol:   variable BLUE_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:38: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/green/left_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_top")));
+                                                                                                                               ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:38: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/green/left_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_top")));
+                                                                                                                                                                   ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:39: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_TOP = registerWithItem("roadsign/green/top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/top")));
+                                                                                                                     ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:39: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_TOP = registerWithItem("roadsign/green/top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/top")));
+                                                                                                                                                         ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:40: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/green/right_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_top")));
+                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:40: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/green/right_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_top")));
+                                                                                                                                                                     ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:41: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT = registerWithItem("roadsign/green/left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left")));
+                                                                                                                       ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:41: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT = registerWithItem("roadsign/green/left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left")));
+                                                                                                                                                           ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:42: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/green/middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/middle")));
+                                                                                                                           ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:42: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/green/middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/middle")));
+                                                                                                                                                               ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:43: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT = registerWithItem("roadsign/green/right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right")));
+                                                                                                                         ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:43: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT = registerWithItem("roadsign/green/right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right")));
+                                                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:44: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/green/left_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_bottom")));
+                                                                                                                                     ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:44: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/green/left_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/left_bottom")));
+                                                                                                                                                                         ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:45: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/green/bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/bottom")));
+                                                                                                                           ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:45: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/green/bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/bottom")));
+                                                                                                                                                               ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:46: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/green/right_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_bottom")));
+                                                                                                                                       ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:46: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/green/right_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/right_bottom")));
+                                                                                                                                                                           ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:47: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/green/horizontal_left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_left")));
+                                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:47: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/green/horizontal_left", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_left")));
+                                                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:48: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/green/horizontal_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_middle")));
+                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:48: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/green/horizontal_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_middle")));
+                                                                                                                                                                                     ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:49: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/green/horizontal_right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_right")));
+                                                                                                                                               ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:49: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/green/horizontal_right", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/horizontal_right")));
+                                                                                                                                                                                   ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:50: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/green/vertical_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_top")));
+                                                                                                                                       ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:50: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/green/vertical_top", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_top")));
+                                                                                                                                                                           ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:51: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/green/vertical_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_middle")));
+                                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:51: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/green/vertical_middle", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_middle")));
+                                                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:52: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/green/vertical_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_bottom")));
+                                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:52: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/green/vertical_bottom", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/vertical_bottom")));
+                                                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:53: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/green/small_a", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_a")));
+                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:53: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_SMALL_A = registerWithItem("roadsign/green/small_a", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_a")));
+                                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:54: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/green/small_b", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_b")));
+                                                                                                                             ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:54: error: cannot find symbol
+      public static final Block GREEN_ROAD_SIGN_SMALL_B = registerWithItem("roadsign/green/small_b", new RoadSignBlock(Blocks.GREEN_CONCRETE, signSettings(Blocks.GREEN_CONCRETE, "roadsign/green/small_b")));
+                                                                                                                                                                 ^
+    symbol:   variable GREEN_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:56: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/yellow/left_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_top")));
+                                                                                                                                 ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:56: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT_TOP = registerWithItem("roadsign/yellow/left_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_top")));
+                                                                                                                                                                      ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:57: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_TOP = registerWithItem("roadsign/yellow/top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/top")));
+                                                                                                                       ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:57: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_TOP = registerWithItem("roadsign/yellow/top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/top")));
+                                                                                                                                                            ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:58: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/yellow/right_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_top")));
+                                                                                                                                   ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:58: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT_TOP = registerWithItem("roadsign/yellow/right_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_top")));
+                                                                                                                                                                        ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:59: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT = registerWithItem("roadsign/yellow/left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left")));
+                                                                                                                         ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:59: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT = registerWithItem("roadsign/yellow/left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left")));
+                                                                                                                                                              ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:60: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/yellow/middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/middle")));
+                                                                                                                             ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:60: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_MIDDLE = registerWithItem("roadsign/yellow/middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/middle")));
+                                                                                                                                                                  ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:61: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT = registerWithItem("roadsign/yellow/right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right")));
+                                                                                                                           ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:61: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT = registerWithItem("roadsign/yellow/right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right")));
+                                                                                                                                                                ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:62: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/yellow/left_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_bottom")));
+                                                                                                                                       ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:62: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_LEFT_BOTTOM = registerWithItem("roadsign/yellow/left_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/left_bottom")));
+                                                                                                                                                                            ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:63: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/yellow/bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/bottom")));
+                                                                                                                             ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:63: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_BOTTOM = registerWithItem("roadsign/yellow/bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/bottom")));
+                                                                                                                                                                  ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:64: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/yellow/right_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_bottom")));
+                                                                                                                                         ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:64: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_RIGHT_BOTTOM = registerWithItem("roadsign/yellow/right_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/right_bottom")));
+                                                                                                                                                                              ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:65: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/yellow/horizontal_left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_left")));
+                                                                                                                                               ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:65: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_LEFT = registerWithItem("roadsign/yellow/horizontal_left", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_left")));
+                                                                                                                                                                                    ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:66: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/yellow/horizontal_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_middle")));
+                                                                                                                                                   ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:66: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_MIDDLE = registerWithItem("roadsign/yellow/horizontal_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_middle")));
+                                                                                                                                                                                        ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:67: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/yellow/horizontal_right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_right")));
+                                                                                                                                                 ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:67: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_HORIZONTAL_RIGHT = registerWithItem("roadsign/yellow/horizontal_right", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/horizontal_right")));
+                                                                                                                                                                                      ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:68: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/yellow/vertical_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_top")));
+                                                                                                                                         ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:68: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_TOP = registerWithItem("roadsign/yellow/vertical_top", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_top")));
+                                                                                                                                                                              ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:69: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/yellow/vertical_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_middle")));
+                                                                                                                                               ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:69: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_MIDDLE = registerWithItem("roadsign/yellow/vertical_middle", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_middle")));
+                                                                                                                                                                                    ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:70: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/yellow/vertical_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_bottom")));
+                                                                                                                                               ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/block/RoadSignBlocks.java:70: error: cannot find symbol
+      public static final Block YELLOW_ROAD_SIGN_VERTICAL_BOTTOM = registerWithItem("roadsign/yellow/vertical_bottom", new RoadSignBlock(Blocks.YELLOW_CONCRETE, signSettings(Blocks.YELLOW_CONCRETE, "roadsign/yellow/vertical_bottom")));
+                                                                                                                                                                                    ^
+    symbol:   variable YELLOW_CONCRETE
+    location: class Blocks
+  Note: /home/rong/RongMC-ports/OcelotSign/src/main/java/bklmc/ocelotsign/item/AbstractRoadSignBlockItem.java uses or overrides a deprecated API.
+  Note: Recompile with -Xlint:deprecation for details.
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 18s
+1 actionable task: 1 executed
