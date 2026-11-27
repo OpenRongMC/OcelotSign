@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-LGPL_3.0-blue.svg)](LICENSE)
 
 > [!IMPORTANT]
-> **Official repository notice**: this is the **only official repository for Ocelot Sign Mod (not a third-party fork)**. It offers the most complete set of native features and the first-hand updates. Branches for different Minecraft versions are maintained here — switch to the one you need.
+> RongMC maintains this Fabric 26.3 port of Ocelot Sign Mod. See the official documentation above for the original project.
 
 **Ocelot Sign Mod** is an add-on for [Mishang Urban Construction](https://github.com/SolidBlock-cn/mishanguc), built on the Fabric platform. It inherits Mishang UC's highly flexible text and pattern editing system, focuses on road traffic guidance and public wayfinding details, and further refines the sign editing experience of the base mod.
 
